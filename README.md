@@ -24,3 +24,5 @@ Lead with the strongest signal:
 - web apps as supporting full-stack practice
 
 Avoid making every repo look equally important. Pin the projects that show depth.
+
+Use [docs/PROFILE_REFRESH_CHECKLIST.md](docs/PROFILE_REFRESH_CHECKLIST.md) before updating pinned repos or profile copy.
