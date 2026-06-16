@@ -17,4 +17,4 @@ Use this whenever the pinned repos or profile README are updated.
 - `clip-image-captioning`
 - `yolov8-detection`
 - `ocr-pipeline`
-- `mlops-project`
+- `rental-price-mlops-pipeline`

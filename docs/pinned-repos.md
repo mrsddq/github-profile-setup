@@ -8,17 +8,17 @@ Pin only repos that tell a coherent story.
 2. `yolov8-detection`
 3. `vit-robustness-xai`
 4. `clip-image-captioning`
-5. `mlops-project`
-6. `devops`
+5. `rental-price-mlops-pipeline`
+6. `devops-learning-archive`
 
 ## Alternate Industry Set
 
 1. `ocr-pipeline`
 2. `pose-estimation-qa`
-3. `mlops-project`
+3. `rental-price-mlops-pipeline`
 4. `booking-web-app`
-5. `tradingbot`
-6. `devops`
+5. `moving-average-trading-bot`
+6. `devops-learning-archive`
 
 ## Keep Archived
 

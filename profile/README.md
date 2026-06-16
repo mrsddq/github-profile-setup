@@ -26,16 +26,16 @@ Building production-grade computer vision systems. Research-focused on medical i
 ### Currently Building
 
 - Turning structured CV repositories into reproducible research projects with datasets, ablations, model cards, and deployment notes.
-- Improving portfolio signal by connecting code to paper notes in [publications-packet](https://github.com/mrsddq/publications-packet).
+- Improving portfolio signal by connecting code to paper notes in [research-portfolio-packet](https://github.com/mrsddq/research-portfolio-packet).
 
 ### Papers I've Implemented or Mapped to Code
 
-Reading notes and implementation traces: [publications-packet](https://github.com/mrsddq/publications-packet)
+Reading notes and implementation traces: [research-portfolio-packet](https://github.com/mrsddq/research-portfolio-packet)
 
 Covers U-Net, Attention U-Net, nnU-Net, ViT, ImageNet-C, Attention Rollout, CLIP, ClipCap, YOLOv8, and ByteTrack.
 
 ### Writing
 
-Technical blog: [mrsddq/blog](https://github.com/mrsddq/blog)
+Technical blog: [mrsddq/ai-ml-technical-blog](https://github.com/mrsddq/ai-ml-technical-blog)
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=mrsddq&show_icons=true&theme=default&hide_title=true)
