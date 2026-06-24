@@ -4,22 +4,18 @@ Pin only repos that tell a coherent story.
 
 ## Recommended Pins
 
-1. `medical-segmentation`
-2. `yolov8-detection`
-3. `vit-robustness-xai`
-4. `clip-image-captioning`
-5. `rental-price-mlops-pipeline`
-6. `devops-learning-archive`
+1. `aws-eks-platform-blueprint`
+2. `ml-platform-infrastructure-on-kubernetes`
+3. `terraform-gitops-delivery-platform`
+4. `sre-observability-incident-response-lab`
+5. `secure-kubernetes-platform-hardening`
+6. `cloud-cost-optimization-toolkit`
 
-## Alternate Industry Set
+## Additional Public Portfolio Repos
 
-1. `ocr-pipeline`
-2. `pose-estimation-qa`
-3. `rental-price-mlops-pipeline`
-4. `booking-web-app`
-5. `moving-average-trading-bot`
-6. `devops-learning-archive`
+- `devops-policy-audit-toolkit`
+- `rental-price-mlops-pipeline`
 
 ## Keep Archived
 
-Course and early learning repos should stay archived unless being actively cleaned or extracted.
+Computer-vision, course and early learning repos can stay public as learning history, but they should not be pinned while applying for DevOps, Platform, SRE or ML infrastructure roles.

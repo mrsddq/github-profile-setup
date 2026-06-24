@@ -2,7 +2,7 @@
 
 Discoverability and profile-positioning kit for the `mrsddq` GitHub portfolio.
 
-The goal is to make the profile quickly communicate: AI/ML, computer vision, MLOps, DevOps, and full-stack learning with honest project maturity.
+The goal is to make the profile quickly communicate: Senior DevOps Engineer, AWS/EKS platform engineering, Terraform/GitOps, SRE, Kubernetes security, FinOps automation, and ML platform infrastructure.
 
 ## Structure
 
@@ -18,10 +18,12 @@ docs/
 
 Lead with the strongest signal:
 
-- computer vision and medical imaging
-- MLOps and reproducible ML systems
-- DevOps/cloud learning
-- web apps as supporting full-stack practice
+- AWS/EKS platform engineering
+- Terraform and GitOps delivery
+- SRE and observability
+- Kubernetes security and policy
+- cloud cost automation
+- ML platform infrastructure
 
 Avoid making every repo look equally important. Pin the projects that show depth.
 
