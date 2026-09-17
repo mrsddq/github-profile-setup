@@ -1,39 +1,19 @@
-﻿# Engineering Runbook
+# Profile template maintenance
 
-## Repository Profile
+This repository stores a reusable GitHub profile README and review checklists.
+The live profile belongs to [mrsddq](https://github.com/mrsddq/mrsddq).
 
-- Repository: $repoName
-- Classification: Documentation/content repository
-- Tracked files: 5
-- Python files: 0
-- JavaScript/TypeScript files: 0
-- Notebooks: 0
-- Terraform files: 0
+## Refresh the template
 
-## Setup
+1. Compare [profile/README.md](../profile/README.md) with the live profile.
+2. Follow the [refresh checklist](PROFILE_REFRESH_CHECKLIST.md) and confirm dates,
+   titles and numerical claims against the owner's source records.
+3. Use the [project selection guide](pinned-repos.md) to choose relevant evidence.
+4. Open every changed project link and check that its description matches the code.
 
-``bash
-No package install step is required for the tracked source.
-``
+```bash
+make verify
+```
 
-## Verification
-
-``bash
-Review tracked content and run repository-specific checks.
-git status --short
-``
-
-## Release Hygiene
-
-- Keep generated outputs, caches, local datasets, virtual environments, and dependency folders out of git.
-- Prefer deterministic commands over manual notebook or console-only steps.
-- Document required secrets and environment variables instead of committing them.
-- Keep Dockerfiles, CI workflows, and tests aligned with the actual project stack.
-- Treat learning or reference material honestly as reference material; do not present it as production service code unless it has service-grade tests, deployment, and operations docs.
-
-## Maintenance Checklist
-
-- Review dependencies quarterly.
-- Run tests before every push.
-- Confirm git status --short is clean before packaging.
-- Include .git only when an external submission explicitly requires repository history.
+This checks whitespace in the working diff; there is no application test suite.
+Changing this template does not update the live profile or repository pins.
