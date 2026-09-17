@@ -1,21 +1,14 @@
-# Pinned Repository Strategy
+# Featured repository selection
 
-Pin only repos that tell a coherent story.
+Use the same primary four projects in the profile README, CV and LinkedIn portfolio:
 
-## Recommended Pins
+1. [AWS EKS Platform Blueprint](https://github.com/mrsddq/aws-eks-platform-blueprint): infrastructure reference, Terraform and Kubernetes operations.
+2. [DevOps Policy Audit Toolkit](https://github.com/mrsddq/devops-policy-audit-toolkit): Python package, CLI, policy semantics, regression tests and reporting.
+3. [Rental Price MLOps Pipeline](https://github.com/mrsddq/rental-price-mlops-pipeline): data contracts, model evaluation, quality gates and artifact-based inference.
+4. [ML Platform Infrastructure on Kubernetes](https://github.com/mrsddq/ml-platform-infrastructure-on-kubernetes): serving demo, model selection, HTTP contracts and deployment configuration.
 
-1. `aws-eks-platform-blueprint`
-2. `ml-platform-infrastructure-on-kubernetes`
-3. `terraform-gitops-delivery-platform`
-4. `sre-observability-incident-response-lab`
-5. `secure-kubernetes-platform-hardening`
-6. `cloud-cost-optimization-toolkit`
+For an AI evaluation application, consider [RAG Evaluation Suite](https://github.com/mrsddq/rag-evaluation-suite) as a fifth project. For infrastructure roles, consider [Terraform GitOps Delivery Platform](https://github.com/mrsddq/terraform-gitops-delivery-platform).
 
-## Additional Public Portfolio Repos
+These are recommendations, not a statement that GitHub pinned settings were changed. The profile README is the maintained entry point. Review the default branch and its latest checks before featuring a project. A passing smoke test establishes only the behavior it exercises; it does not establish a real-data benchmark or a production deployment.
 
-- `devops-policy-audit-toolkit`
-- `rental-price-mlops-pipeline`
-
-## Keep Archived
-
-Computer-vision, course and early learning repos can stay public as learning history, but they should not be pinned while applying for DevOps, Platform, SRE or ML infrastructure roles.
+Course and learning repositories preserve learning history and attribution. Vision projects can support AI applications when their runnable paths and remaining data/compute requirements are described accurately.

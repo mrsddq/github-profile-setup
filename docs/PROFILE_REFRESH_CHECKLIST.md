@@ -1,20 +1,13 @@
-# Profile Refresh Checklist
+# Profile refresh checklist
 
-Use this whenever the pinned repos or profile README are updated.
+- Keep the four primary projects consistent with [the featured selection](pinned-repos.md).
+- Copy the current public profile into `profile/README.md` when changing its positioning.
+- Verify project links, setup commands and the current default-branch CI result.
+- Record measurements only with the dataset, split, command, code version and output artifact.
+- Describe reference infrastructure, smoke tests and trained-model results separately.
+- Keep Handshake (June–September 2026) and AfterQuery (June–July 2026) dates consistent with the corrected resume.
+- Describe 95 repositories and 5,440 verified files as consolidation and integrity work, not accepted benchmark-task counts.
+- Keep private client implementations private and use public, independently reproducible examples.
+- Check that contact links match the current resume.
 
-## Monthly Refresh
-
-- [ ] Pin the six strongest portfolio repos, not every active repo.
-- [ ] Confirm each pinned repo has a README, tests or CI, and an evidence/demo plan.
-- [ ] Update metric status from real results only.
-- [ ] Move learning archives lower in the profile narrative.
-- [ ] Link writing and publications packet only when they support real project evidence.
-
-## Best Current Pin Set
-
-- `medical-segmentation`
-- `vit-robustness-xai`
-- `clip-image-captioning`
-- `yolov8-detection`
-- `ocr-pipeline`
-- `rental-price-mlops-pipeline`
+The stored profile is a reusable copy. Editing this repository does not automatically change `mrsddq/mrsddq`, LinkedIn or GitHub's pinned settings.
