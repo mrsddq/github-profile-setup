@@ -1,41 +1,59 @@
-## Laraib Ahmad Siddiqui - ML Engineer, Computer Vision
+# Laraib Ahmad Siddiqui
 
-Building production-grade computer vision systems. Research-focused on medical imaging, multimodal models, OCR, pose evaluation, and ViT robustness. Currently open to research and ML engineering roles.
+**DevOps Engineer | MLOps Engineer | AWS • Kubernetes • Terraform • CI/CD • GitOps • Python**
 
-### Skills
+I build automated cloud infrastructure, reliable delivery pipelines, and reproducible environments for software and machine-learning workloads. My background combines AWS/Kubernetes platform engineering, infrastructure as code, CI/CD and GitOps, observability, and MLOps deployment workflows.
 
-| Category | Tools |
-|---|---|
-| Deep Learning | PyTorch, TensorFlow, Ultralytics, HuggingFace Transformers |
-| Computer Vision | U-Net, YOLOv8, CLIP, ViT, MediaPipe, OpenCV |
-| MLOps | W&B, Docker, GitHub Actions, HuggingFace Spaces |
-| DevOps | AWS, Azure, Terraform, Jenkins, Kubernetes |
-| Languages | Python, SQL, Bash, JavaScript |
+My recent work at Handshake AI and AfterQuery extends that experience into evaluating coding agents on infrastructure recovery, configuration repair, Linux troubleshooting, and ML workflows.
 
-### Featured Projects
+[e-mail](mailto:laraibahmadsiddiqui@gmail.com) | [LinkedIn](https://www.linkedin.com/in/laraib-ahmad-siddiqui/) | [GitHub](https://github.com/mrsddq)
 
-| Project | Description | Metric Status |
-|---|---|---|
-| [medical-segmentation](https://github.com/mrsddq/medical-segmentation) | Attention U-Net for cardiac MRI segmentation | Dice pending real Task02_Heart run |
-| [vit-robustness-xai](https://github.com/mrsddq/vit-robustness-xai) | ImageNet-C-style robustness with GradCAM and attention rollout | mCE pending local evaluation |
-| [clip-image-captioning](https://github.com/mrsddq/clip-image-captioning) | Frozen CLIP plus caption decoders on COCO captions | BLEU-4/CIDEr pending training |
-| [yolov8-detection](https://github.com/mrsddq/yolov8-detection) | YOLOv8 on VisDrone aerial detection plus ByteTrack | mAP pending VisDrone training |
-| [ocr-pipeline](https://github.com/mrsddq/ocr-pipeline) | CRNN+CTC versus Tesseract OCR pipeline | CER/WER pending IAM run |
-| [pose-estimation-qa](https://github.com/mrsddq/pose-estimation-qa) | MediaPipe pose QA and COCO OKS benchmark | OKS AP pending benchmark |
+## Selected DevOps and MLOps projects
 
-### Currently Building
+| Project | What you can inspect |
+| --- | --- |
+| [AWS EKS Platform Blueprint](https://github.com/mrsddq/aws-eks-platform-blueprint) | A reference platform with Terraform VPC/EKS configuration, IAM boundaries, Kubernetes manifests, GitOps configuration, observability values, and operating runbooks. |
+| [DevOps Policy Audit Toolkit](https://github.com/mrsddq/devops-policy-audit-toolkit) | A Python CLI for infrastructure and CI policy checks, with configurable severity gates, finding baselines, SARIF/HTML/JSON reporting, and automated tests. |
+| [Rental Price MLOps Pipeline](https://github.com/mrsddq/rental-price-mlops-pipeline) | A rental-prediction case study with data validation, model quality gates, artifact and registry metadata, FastAPI serving, Docker, tests, and Kubernetes/Helm manifests. |
+| [ML Platform Infrastructure on Kubernetes](https://github.com/mrsddq/ml-platform-infrastructure-on-kubernetes) | A model-serving infrastructure demo with a Python scoring API, Docker, Helm, Argo CD manifests, Prometheus metrics, and container smoke checks. |
 
-- Turning structured CV repositories into reproducible research projects with datasets, ablations, model cards, and deployment notes.
-- Improving portfolio signal by connecting code to paper notes in [research-portfolio-packet](https://github.com/mrsddq/research-portfolio-packet).
+These are portfolio implementations, demos, and blueprints. Each repository documents its scope, setup, and validation steps.
 
-### Papers I've Implemented or Mapped to Code
+## Engineering toolkit
 
-Reading notes and implementation traces: [research-portfolio-packet](https://github.com/mrsddq/research-portfolio-packet)
+| Area | Tools and practices |
+| --- | --- |
+| Cloud and infrastructure as code | AWS, EKS, EC2, VPC, IAM, S3, RDS, Terraform, Terragrunt, CloudFormation, Ansible; working exposure to Azure and GCP |
+| Containers, CI/CD, and GitOps | Docker, Kubernetes, Helm, Kustomize, GitHub Actions, GitLab CI/CD, Jenkins, Argo CD, Flux CD |
+| MLOps and model deployment | MLflow, Kubeflow Pipelines, FastAPI, model artifacts, experiment tracking, quality reports, drift checks |
+| Automation and testing | Python, Bash, PowerShell, SQL, pytest, Git, Linux, automated regression testing |
+| Observability, reliability, and security | Prometheus, Grafana, CloudWatch, ELK/EFK, Datadog, IAM, OIDC, RBAC, KMS, Secrets Manager, incident response, RCA |
+| AI evaluation | Agent benchmarks, reference solutions, hidden verifiers, trajectory analysis, mutation testing |
+| Data infrastructure | Kafka, Apache Spark, dbt, Amazon Redshift, Snowflake |
 
-Covers U-Net, Attention U-Net, nnU-Net, ViT, ImageNet-C, Attention Rollout, CLIP, ClipCap, YOLOv8, and ByteTrack.
+## Handshake AI and AfterQuery experience
 
-### Writing
+At **Handshake AI (Jun-Sep 2026)**, my work included:
 
-Technical blog: [mrsddq/ai-ml-technical-blog](https://github.com/mrsddq/ai-ml-technical-blog)
+- Developing coding and terminal-agent benchmarks covering systems infrastructure, software engineering, data processing, and machine learning.
+- Building reproducible Docker environments, Python/Bash reference solutions, and independent hidden verifiers, with Oracle, NOP, regression, and mutation testing.
+- Investigating agent execution and infrastructure failures, and using pass@2/pass@5 results alongside execution trajectories to identify shortcuts and reliability issues.
+- Consolidating **95 repositories across 15 categories and 52 subcategory groups** into a private GitHub library, preserving source-commit provenance and automated integrity checks.
+- Verifying **5,440 files**, preserving executable permissions, and reviewing secret-scan findings.
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=mrsddq&show_icons=true&theme=default&hide_title=true)
+Client benchmark implementations remain private.
+
+At **AfterQuery (Jun-Jul 2026)**, I built repository and terminal-based evaluations for configuration repair, Linux troubleshooting, service recovery, bug fixing, and refactoring, with fail-to-pass and pass-to-pass regression checks.
+
+## More platform work
+
+- [Terraform GitOps Delivery Platform](https://github.com/mrsddq/terraform-gitops-delivery-platform)
+- [SRE Observability and Incident Response Lab](https://github.com/mrsddq/sre-observability-incident-response-lab)
+- [Secure Kubernetes Platform Hardening](https://github.com/mrsddq/secure-kubernetes-platform-hardening)
+- [Cloud Cost Optimization Toolkit](https://github.com/mrsddq/cloud-cost-optimization-toolkit)
+
+## Opportunities and interests
+
+Based in Delhi NCR, India. Interested primarily in **DevOps Engineer, MLOps Engineer, and Cloud Platform Engineer** opportunities, with a focus on AWS, Kubernetes, infrastructure automation, CI/CD, GitOps, and reliable ML infrastructure.
+
+I also bring coding-agent evaluation experience relevant to AI infrastructure and evaluation engineering roles. My research interests include multimodal and multilingual model evaluation and agentic systems.
